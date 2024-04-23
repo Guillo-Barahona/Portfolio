@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import NavBar from './components/NavBar'
 import ProfileBanner from './components/ProfileBanner'
@@ -14,19 +15,16 @@ function App() {
   document.addEventListener("DOMContentLoaded", useIntersectionObserver(".hidden3"));
 
 
-
-
   return (
-    <div>
+      <div>
       <NavBar></NavBar>
       <WelcomeBanner></WelcomeBanner>
 
       <ProfileBanner></ProfileBanner>
       <Skills></Skills>
       <Projects ></Projects>
-      
-    </div>
-      
+      </div>
+
   )
 }
 

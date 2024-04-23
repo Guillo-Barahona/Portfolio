@@ -1,6 +1,6 @@
 
     const NavBar = () => {
-
+    
 
         return (
 
@@ -9,7 +9,7 @@
                         <div className="row">
                                         <nav className="navbar navbar-expand-lg">
 
-                                                <div className="col-md-3">
+                                                <div className="col-md-3 px-3">
                                                     <a className="navbar-brand" href="#"><img className="logo" src="/images/gb_logo.png" alt="gb_logo"></img></a>
                                                 </div>
                                                 
@@ -31,8 +31,13 @@
                                                     </ul>                                                
                                                 </div>
 
-                                                <div className="col-md-3 collapse navbar-collapse justify-content-end" id="navbarNav">
+                                                
+
+                                                <div className="col-md-3 px-3 collapse navbar-collapse justify-content-end" id="navbarNav">
                                                     <ul className="navbar-nav icons">
+                                                        <li className="nav-item mx-1 hoverZoom">
+                                                        <a href={"https://wa.me/529991901494"} target={"_blank"} className="me-3" rel="noreferrer"><img src={"/images/whatsapp2.png"} alt="Whatsapp" width={30} /></a>
+                                                        </li>
                                                         <li className="nav-item mx-1 hoverZoom">
                                                         <a href={"https://www.instagram.com/guillo_barahona"} target={"_blank"} className="me-3" rel="noreferrer"><img src={"/images/instagram_logo.png"} alt="Instagram" width={30} /></a>
                                                         </li>
@@ -43,8 +48,8 @@
                                                         <a href={"https://www.linkedin.com/in/guillermo-barahona-li/"} target={"_blank"} className="me-3" rel="noreferrer"><img src={"/images/linkedin_logo.png"} alt="Linkedin" width={30} /></a>
                                                         </li>
                                                     </ul>
-                                                </div>    
-                                            
+                                                </div>   
+                                                
                                         </nav>
                     </div>
                 </div>

@@ -6,7 +6,7 @@
 html{
   scroll-behavior: smooth; 
   overflow-x: hidden;
-  scroll-padding-top: 60px;
+  scroll-padding-top: 70px;
 }
 
 body {
@@ -45,11 +45,11 @@ body {
 }
 
 .ProfileBanner {
-  height: 75vh;
+  height: 85vh;
   display: grid;
   align-content: center;
   position: relative;
-  background: rgba(209,200,225,.9);
+  background: rgba(209,200,225,.5);
 /* background: linear-gradient(0deg, rgba(4,75,110,1) 0%, rgba(83,216,251,1) 15%, rgba(209,200,225,1) 75%, rgba(117,17,111,1) 100%);
  */}
 
@@ -91,8 +91,8 @@ body {
 }
 
 .profile_img{
-  width: 300px;
-  max-width: 300px;
+  width: 350px;
+  max-width: 400px;
   overflow-clip-margin: content-box;
   overflow: clip;
   margin: 0px;
@@ -103,7 +103,8 @@ body {
   background-color: rgba(255, 255, 255, 0.6);
   font-family: 'lato',sans-serif;
   height: auto;
-  padding-bottom: 2vh;
+  /* padding-bottom: 2vh; */
+  padding: 2vh 2vh;
 }
 
 
@@ -201,8 +202,8 @@ body {
   background-color: inherit;
   border-radius: 12px;
   font-weight: 600;
-  color: greenyellow;
-  box-shadow: 0 0 0 2px greenyellow;
+  color: #fff;
+  box-shadow: 0 0 0 2px #11BA5A;
   cursor: pointer;
   overflow: hidden;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
@@ -211,7 +212,7 @@ body {
 .animated-button svg {
   position: absolute;
   width: 24px;
-  fill: greenyellow;
+  fill: #11BA5A;
   z-index: 9;
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -231,7 +232,7 @@ body {
   transform: translate(-50%, -50%);
   width: 20px;
   height: 20px;
-  background-color: greenyellow;
+  background-color: #11BA5A;
   border-radius: 50%;
   opacity: 0;
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
@@ -324,6 +325,7 @@ body {
   display: inline-block;
 }
 .typed-out{
+  
   overflow: hidden;
   border-right: .15em solid orange;
   white-space: nowrap;
@@ -332,6 +334,7 @@ body {
   width: 0;
   animation-iteration-count: infinite;
 }
+
 
 @keyframes typing {
   0% {width: 0 }
@@ -382,4 +385,81 @@ body {
 
 .custom-shape-divider-bottom-1712948696 .shape-fill {
   fill: #2C74B3;
+}
+
+/* toggle switch */
+/* Genel stil */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+  margin: 10px;
+}
+
+/* Giriş stil */
+.toggle-switch .toggle-input {
+  display: none;
+}
+
+/* Anahtarın stilinin etrafındaki etiketin stil */
+.toggle-switch .toggle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 24px;
+  background-color: #2196F3;
+  border-radius: 34px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Anahtarın yuvarlak kısmının stil */
+.toggle-switch .toggle-label::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+/* Anahtarın etkin hale gelmesindeki stil değişiklikleri */
+.toggle-switch .toggle-input:checked + .toggle-label {
+  background-color: #4CAF50;
+}
+
+.toggle-switch .toggle-input:checked + .toggle-label::before {
+  transform: translateX(16px);
+}
+
+/* Light tema */
+.toggle-switch.light .toggle-label {
+  background-color: #BEBEBE;
+}
+
+.toggle-switch.light .toggle-input:checked + .toggle-label {
+  background-color: #9B9B9B;
+}
+
+.toggle-switch.light .toggle-input:checked + .toggle-label::before {
+  transform: translateX(6px);
+}
+
+/* Dark tema */
+.toggle-switch.dark .toggle-label {
+  background-color: #4B4B4B;
+}
+
+.toggle-switch.dark .toggle-input:checked + .toggle-label {
+  background-color: #717171;
+}
+
+.toggle-switch.dark .toggle-input:checked + .toggle-label::before {
+  transform: translateX(16px);
 }

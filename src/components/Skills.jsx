@@ -9,7 +9,7 @@ const Skills = () => {
             <div className="container-fluid pt-4 pb-0">
                 <div className="row">
                     <div className="col container-fluid d-flex justify-content-center">
-                        <h1>Skills</h1>
+                        <h1>Herramientas</h1>
                     </div>
                 </div>
             </div>

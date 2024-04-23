@@ -63,11 +63,11 @@ const Projects = () => {
                             </a>
                         </div>
                         <div className="col-md-4">
-                            <a href="https://guillo-barahona.github.io/Ricordi_Pizza/index.html" target="_blank" className="project project-tile text-decoration-none">
+                            <a href="https://coderhouse-ecommerce1.web.app/" target="_blank" className="project project-tile text-decoration-none">
                                 <div className="card" >
-                                    <img src="/images/placeHolder.png" className="card-img-top" alt="..."></img>
+                                    <img src="/images/dipay.png" className="card-img-top" alt="..."></img>
                                     <div className="card-body">
-                                        <p className="card-text">E-commerce (pending)</p>
+                                        <p className="card-text">E-commerce "Dipay"</p>
                                         <p className="text-muted">Javascript | React Js</p>
                                     </div>
                                 </div>
