@@ -14,7 +14,7 @@ const WelcomeBanner = () => {
                         <div className="mb-auto p-2 animate__animated animate__fadeInRight">
                             <h2>A mi Portafolio de</h2>
                                 <div className="typer_container">
-                                    <div className="typed-out fs-4">Desarrollador Web </div>
+                                    <div className="typed-out">Desarrollador Web </div>
                                 </div>
                         </div>
                 </div>

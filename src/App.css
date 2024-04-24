@@ -12,15 +12,59 @@ html{
 body {
   background-image: url("https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100vw;
+  background-attachment: fixed; 
+  background-size: 100%;
   background-color: rgba(21,88,121,0.8128501400560224);
   font-family: "Fjalla One", sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-
+  overflow-x: hidden;
 }
+
+
+
+
+
+@media (max-width: 1024px) {
+  body {
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 200vw;
+    background-color: rgba(21,88,121,0.8128501400560224);
+    overflow-x: hidden;
+  }
+
+  .WelcomeBanner {
+    min-height: 100vh;
+  }
+
+  .ProfileBanner {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile_img{
+    width: 60%;
+    max-width: 300px;
+    overflow: clip;
+    margin: 0px;
+    border-radius: 50%;
+  }
+  
+  .profile_square{
+    background-color:#11BA5A;
+    font-family: 'lato',sans-serif;
+    height: 50%;
+    /* padding: 2vh 2vh; */
+  }
+  }
+
+
+
+
+
 
 .WelcomeBanner {
   font-family: 'lato',sans-serif;
@@ -59,11 +103,12 @@ body {
 }
 
 .Header{
-  background-color: rgba(64, 66, 88, 1);
+  background-color: greenyellow; /* rgba(64, 66, 88, 1); */
   padding: 0px, 0px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4); 
   font-family: 'lato',sans-serif;
   color: #fff;
+  width: 100vw;
 }
 
 .Header li a{
@@ -133,7 +178,7 @@ body {
   }
 
 .card {
-  width: 25rem;
+  width: 80%;
   margin: 20px;
   font-family: 'lato',sans-serif;
   transition: transform .5s ease;
@@ -143,6 +188,7 @@ body {
   box-shadow: 5px 6px 6px 2px rgba(255,255,255,0.2); 
   transform: scale(1.03);
 }
+
 
 /* animacion de entrada */
 

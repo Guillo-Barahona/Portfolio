@@ -15,8 +15,8 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="container-fluid pt-0 pb-0">
-                <div className="row row-cols-1 row-cols-md-2 g-4">
+            <div className="container-fluid pt-0 pb-0 ">
+                <div className="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
 
                         <div className="col-md-4">
                             <a href="https://guillo-barahona.github.io/Ricordi_Pizza/index.html" target="_blank" className="project project-tile text-decoration-none">
