@@ -21,7 +21,7 @@ const Projects = () => {
                         <div className="col-md-4">
                             <a href="https://guillo-barahona.github.io/Ricordi_Pizza/index.html" target="_blank" className="project project-tile text-decoration-none">
                                 <div className="hidden3 card" >
-                                    <img src="/images/ricordi.png" className="card-img-top" alt="..."></img>
+                                    <img src="/images/ricordi.png" className="card-img-top" alt="ricordi"></img>
                                     <div className="card-body">
                                         <p className="card-text">Landing page "Ricordi Pizza"</p>
                                         <p className="text-muted">Html | Css | Sass</p>
@@ -32,7 +32,7 @@ const Projects = () => {
                         <div className="col-md-4">
                             <a href="https://guillo-barahona.github.io/Pokemon_Team_Randomizer/" target="_blank" className="project project-tile text-decoration-none">
                                 <div className="hidden3 card" >
-                                    <img src="/images/pokemonRandom.png" className="card-img-top" alt="..."></img>
+                                    <img src="/images/pokemonRandom.png" className="card-img-top" alt="PokemonRandomizer"></img>
                                     <div className="card-body">
                                         <p className="card-text">"Pokemon Team Randomizer"</p>
                                         <p className="text-muted">Html | Css | Bootstrap | Js</p>
@@ -43,7 +43,7 @@ const Projects = () => {
                         <div className="col-md-4">
                             <a href="https://azuli-mx.web.app/" target="_blank" className="project project-tile text-decoration-none">
                                 <div className="hidden3 card" >
-                                    <img src="/images/azuli.png" className="card-img-top" alt="..."></img>
+                                    <img src="/images/azuli.png" className="card-img-top" alt="azuliMx"></img>
                                     <div className="card-body">
                                         <p className="card-text">E-commerce "Azuli Mx"</p>
                                         <p className="text-muted">Javascript | React Js</p>
@@ -54,7 +54,7 @@ const Projects = () => {
                         <div className="col-md-4">
                             <a href="https://guillo-barahona.github.io/To-do-List-App/" target="_blank" className="project project-tile text-decoration-none">
                                 <div className="card" >
-                                    <img src="/images/ToDo.png" className="card-img-top" alt="..."></img>
+                                    <img src="/images/ToDo.png" className="card-img-top" alt="toDo"></img>
                                     <div className="card-body">
                                         <p className="card-text">To Do List App</p>
                                         <p className="text-muted">Javascript</p>
@@ -65,7 +65,7 @@ const Projects = () => {
                         <div className="col-md-4">
                             <a href="https://coderhouse-ecommerce1.web.app/" target="_blank" className="project project-tile text-decoration-none">
                                 <div className="card" >
-                                    <img src="/images/dipay.png" className="card-img-top" alt="..."></img>
+                                    <img src="/images/dipay.png" className="card-img-top" alt="dipay"></img>
                                     <div className="card-body">
                                         <p className="card-text">E-commerce "Dipay"</p>
                                         <p className="text-muted">Javascript | React Js</p>
@@ -74,9 +74,9 @@ const Projects = () => {
                             </a>
                         </div>
                         <div className="col-md-4">
-                            <a href="https://guillo-barahona.github.io/Ricordi_Pizza/index.html" target="_blank" className="project project-tile text-decoration-none">
+                            <a href="https://portfolio-guillermobarahona.netlify.app/" target="_blank" className="project project-tile text-decoration-none">
                                 <div className="card" >
-                                    <img src="/images/portfolio.png" className="card-img-top" alt="..."></img>
+                                    <img src="/images/portfolio.png" className="card-img-top" alt="portfolio"></img>
                                     <div className="card-body">
                                         <p className="card-text">Portfolio</p>
                                         <p className="text-muted">Bootstrap | React Js</p>
