@@ -74,7 +74,7 @@ const Projects = () => {
                             </a>
                         </div>
                         <div className="col-md-4">
-                            <a href="https://portfolio-guillermobarahona.netlify.app/" target="_blank" className="project project-tile text-decoration-none">
+                            <a href="https://guillo-barahona.github.io/Music-Player/" target="_blank" className="project project-tile text-decoration-none">
                                 <div className="card" >
                                     <img src="/images/MusicPlayer.png" className="card-img-top" alt="portfolio"></img>
                                     <div className="card-body">
